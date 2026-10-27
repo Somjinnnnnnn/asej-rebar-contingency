@@ -1,0 +1,9 @@
+﻿Model,"as fitted, 5 yr: P5 / P50 / P95 (%)","as fitted, 20 yr: P5 / P50 / P95 (%)","zero real drift, 5 yr: P5 / P50 / P95 (%)","zero real drift, 20 yr: P5 / P50 / P95 (%)"
+"Random walk (real, driftless)",-38 / 1 / 64,-62 / 0 / 163,-38 / 0 / 64,-62 / -0 / 162
+Block bootstrap (demeaned),-39 / -3 / 84,-64 / -4 / 205,-39 / -2 / 84,-64 / -3 / 208
+"GBM (real, fitted drift)",-41 / -4 / 58,-68 / -14 / 127,-39 / -1 / 64,-63 / 0 / 165
+"GARCH(1,1)",-60 / -24 / 42,-92 / -67 / 23,-47 / -0 / 88,-74 / 0 / 276
+"AR(1)-GARCH(1,1)",-47 / 2 / 134,-73 / 18 / 552,-50 / -3 / 121,-78 / -5 / 427
+Merton jump-diffusion,-41 / -4 / 60,-68 / -14 / 128,-39 / -0 / 66,-62 / -0 / 165
+Markov regime-switching,-42 / -4 / 58,-69 / -14 / 130,-39 / 0 / 64,-63 / 0 / 169
+Mean-reverting AR(1) level,-29 / 4 / 57,-33 / 10 / 85,-31 / 1 / 53,-39 / -0 / 68

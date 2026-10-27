@@ -1,0 +1,15 @@
+Args: {'series': ['SD40 12mm'], 'data_dir': WindowsPath('data'), 'out_dir': 'backtest_v2', 'paths': 2000, 'first_origin': Timestamp('2020-06-01 00:00:00'), 'extra_lag': 0, 'driver_sets': ['all drivers', 'scrap+ore'], 'tune': 'both', 'quick': False, 'shard': (6, 12)} | Windows-11-10.0.26200-SP0 | Python 3.12.10
+
+=== Data ===
+Drivers: ['iron_ore_wb', 'coal_wb', 'brent_wb', 'iron_ore_imf', 'steel_ppi', 'scrap_ppi', 'fx', 'diesel_thb', 'iron_ore_thb'] | Pink Sheet October 02, 2026
+    (8.9 s)
+
+=== Backtest ===
+SD40 12mm origin 2020-12 done
+SD40 12mm origin 2021-12 done
+SD40 12mm origin 2022-12 done
+SD40 12mm origin 2023-12 done
+SD40 12mm origin 2024-12 done
+SD40 12mm origin 2025-12 done
+    (1973.0 s)
+Shard 6/12 done; checkpoints in outputs\backtest_v2\checkpoints

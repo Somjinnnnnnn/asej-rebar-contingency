@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "Data and code for: Probabilistic Forecasting of Reinforcing Steel Prices for Expenditure-Based Price-Escalation Allowances: Evidence from Thailand"
+version: 1.0.0
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/Somjinnnnnnn/asej-rebar-contingency"
+authors:
+  - family-names: Kanangkaew
+    given-names: Somjintana
+    affiliation: "Chiang Mai University"
+  - family-names: Pang
+    given-names: Dikai
+    affiliation: "Khon Kaen University"
+  - family-names: Kanangkaew
+    given-names: Pongammard
+    affiliation: "Khon Kaen University"
+  - family-names: Jokkaw
+    given-names: Noppadon
+    affiliation: "Chulalongkorn University"
+keywords:
+  - construction cost contingency
+  - reinforcing steel
+  - probabilistic forecasting
+  - quantile regression
+  - XGBoost
+  - conformal prediction
+  - block bootstrap
+  - Thailand

@@ -1,0 +1,68 @@
+model,h,p_value,family,p_holm_family,p_bh_family
+AR(1),1,0.9045272446078704,exploratory,1.0,0.9323588521342664
+"AR(1)-GARCH(1,1)",1,0.4753053917218027,exploratory,1.0,0.6008577593464298
+Empirical h-month changes,1,0.8221512178881674,exploratory,1.0,0.9323588521342664
+"GARCH(1,1)",1,0.879177365782189,exploratory,1.0,0.9323588521342664
+GBM (data-calibrated),1,0.2205977880690151,exploratory,1.0,0.3144691872473194
+"Linear QR, + all drivers",1,0.7401837079888487,exploratory,1.0,0.9016783351864156
+"Linear QR, + all drivers, CV-tuned",1,0.9037668767670884,exploratory,1.0,0.9323588521342664
+"Linear QR, + scrap+ore, CV-tuned",1,0.8537249719802655,exploratory,1.0,0.9323588521342664
+"Linear QR, own history, CV-tuned",1,0.7928484054158886,exploratory,1.0,0.9319446168923603
+Markov regime-switching,1,0.8925166128380466,exploratory,1.0,0.9323588521342664
+Merton jump-diffusion,1,0.9888082478798464,exploratory,1.0,0.9888082478798464
+"XGBoost QR, + all drivers, CV-tuned",1,0.0564095800898638,exploratory,1.0,0.16585321336214046
+"XGBoost QR, + scrap+ore, CV-tuned",1,0.0168257009161839,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history",1,0.0489123445836805,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history, CV-tuned",1,0.0387992313200506,exploratory,1.0,0.16585321336214046
+AR(1),3,0.0550417761772152,exploratory,1.0,0.16585321336214046
+"AR(1)-GARCH(1,1)",3,0.0957181972003,exploratory,1.0,0.16585321336214046
+Empirical h-month changes,3,0.0941561891732869,exploratory,1.0,0.16585321336214046
+"GARCH(1,1)",3,0.3034393825451066,exploratory,1.0,0.4066087726104428
+GBM (data-calibrated),3,0.0965414227033355,exploratory,1.0,0.16585321336214046
+"Linear QR, + all drivers",3,0.1246220059633394,exploratory,1.0,0.20365059511082295
+"Linear QR, + all drivers, CV-tuned",3,0.191878692363675,exploratory,1.0,0.27947548670361355
+"Linear QR, + scrap+ore, CV-tuned",3,0.1544670599725351,exploratory,1.0,0.23521120495817846
+"Linear QR, own history, CV-tuned",3,0.035992614182223,exploratory,1.0,0.16585321336214046
+Markov regime-switching,3,0.0862177759323043,exploratory,1.0,0.16585321336214046
+Merton jump-diffusion,3,0.05058646990713,exploratory,1.0,0.16585321336214046
+"XGBoost QR, + all drivers, CV-tuned",3,0.29856304706746,exploratory,1.0,0.4066087726104428
+"XGBoost QR, + scrap+ore, CV-tuned",3,0.1706883100709681,exploratory,1.0,0.25413592832788584
+"XGBoost QR, own history",3,0.0361015139953057,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history, CV-tuned",3,0.0879928150751924,exploratory,1.0,0.16585321336214046
+AR(1),6,0.0465296779685467,exploratory,1.0,0.16585321336214046
+"AR(1)-GARCH(1,1)",6,0.0710696694458118,exploratory,1.0,0.16585321336214046
+Empirical h-month changes,6,0.0196561467768437,exploratory,1.0,0.16585321336214046
+"GARCH(1,1)",6,0.4017880675359348,exploratory,1.0,0.517688471632839
+GBM (data-calibrated),6,0.1302627711796642,exploratory,1.0,0.20780013497708336
+"Linear QR, + all drivers",6,0.0117326966275838,exploratory,0.762625280792947,0.16585321336214046
+"Linear QR, + all drivers, CV-tuned",6,0.0230883711963783,exploratory,1.0,0.16585321336214046
+"Linear QR, + scrap+ore, CV-tuned",6,0.0074971788716581,exploratory,0.4948138055294346,0.16585321336214046
+"Linear QR, own history, CV-tuned",6,0.0438166498352958,exploratory,1.0,0.16585321336214046
+Markov regime-switching,6,0.1477275731348005,exploratory,1.0,0.2301801720937589
+Merton jump-diffusion,6,0.1212776866321531,exploratory,1.0,0.20314012510885643
+"XGBoost QR, + all drivers, CV-tuned",6,0.0658497322184127,exploratory,1.0,0.16585321336214046
+"XGBoost QR, + scrap+ore, CV-tuned",6,0.0859180635716441,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history",6,0.0178131731339467,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history, CV-tuned",6,0.0593867678908199,exploratory,1.0,0.16585321336214046
+AR(1),12,0.0648376747604748,exploratory,1.0,0.16585321336214046
+"AR(1)-GARCH(1,1)",12,0.0503109381641779,exploratory,1.0,0.16585321336214046
+Empirical h-month changes,12,0.0020511050718764,exploratory,0.1374240398157188,0.1374240398157188
+"GARCH(1,1)",12,0.9558162613547408,exploratory,1.0,0.9702983259207216
+GBM (data-calibrated),12,0.0668124234176571,exploratory,1.0,0.16585321336214046
+"Linear QR, + all drivers",12,0.0503670204064675,exploratory,1.0,0.16585321336214046
+"Linear QR, + all drivers, CV-tuned",12,0.0262699729385984,exploratory,1.0,0.16585321336214046
+"Linear QR, + scrap+ore, CV-tuned",12,0.0522477761349454,exploratory,1.0,0.16585321336214046
+"Linear QR, own history, CV-tuned",12,0.0284755704923765,exploratory,1.0,0.16585321336214046
+Markov regime-switching,12,0.074619101334201,exploratory,1.0,0.16585321336214046
+Merton jump-diffusion,12,0.0798958637834406,exploratory,1.0,0.16585321336214046
+"XGBoost QR, + all drivers, CV-tuned",12,0.0768111062840337,exploratory,1.0,0.16585321336214046
+"XGBoost QR, + scrap+ore, CV-tuned",12,0.0808064986021522,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history",12,0.0768693884794379,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history, CV-tuned",12,0.0672683329302152,exploratory,1.0,0.16585321336214046
+"XGBoost QR, own history, CV-tuned vs Linear QR, own history, CV-tuned",1,0.0936192448741918,"primary, not vs random walk",1.0,0.16585321336214046
+"XGBoost QR, + all drivers, CV-tuned vs XGBoost QR, own history, CV-tuned",1,0.8280510618003658,"primary, not vs random walk",1.0,0.9323588521342664
+"XGBoost QR, + scrap+ore, CV-tuned vs XGBoost QR, own history, CV-tuned",1,0.5722532095069687,"primary, not vs random walk",1.0,0.7100178710549426
+"Block bootstrap (demeaned), mean block 12",1,0.3884679903683551,block bootstrap,1.0,0.5103403010721528
+"Block bootstrap (demeaned), mean block 12",3,0.7609926837910465,block bootstrap,1.0,0.9104733895357163
+"Block bootstrap (demeaned), mean block 12",6,0.8602710779068302,block bootstrap,1.0,0.9323588521342664
+"Block bootstrap (demeaned), mean block 12",12,0.2865445308658189,block bootstrap,1.0,0.3999684076668722

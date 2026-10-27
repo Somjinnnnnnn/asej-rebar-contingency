@@ -1,0 +1,10 @@
+﻿Model,Procedure,Origins,Protected / origins,Protection,90% interval or range,Mean allowance (%)
+Random walk,"Nominal fit, as in Table 6",2019-01 to 2024-09,54 / 69,0.78,0.57–0.99,21.0
+Random walk,"Real fit, 2% inflation",2019-01 to 2024-09,54 / 69,0.78,–,23.3
+Random walk,"Nominal fit, non-overlapping origins",24 subsamples of 2-3,–,0.77 (mean),0.50–1.00,–
+Random walk,P95 × k from earlier origins (k = 1.33–3.34),2021-12 to 2024-09,34 / 34,1.00,–,73.1
+Block bootstrap,"Nominal fit, as in Table 6",2019-01 to 2024-09,55 / 69,0.80,0.59–1.00,31.7
+Block bootstrap,"Real fit, 2% inflation",2019-01 to 2024-09,56 / 69,0.81,–,34.2
+Block bootstrap,"Nominal fit, non-overlapping origins",24 subsamples of 2-3,–,0.78 (mean),0.50–1.00,–
+Block bootstrap,P95 × k from earlier origins (k = 1.08–2.90),2021-12 to 2024-09,34 / 34,1.00,–,107.4
+Fixed +10%,Fixed allowance,2019-01 to 2024-09,50 / 69,0.72,0.48–0.97,10.0

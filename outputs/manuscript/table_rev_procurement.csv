@@ -1,0 +1,5 @@
+﻿Schedule,Model,Expenditure P50 (%),Expenditure P80 (%),Expenditure P95 (%),Pr(≤ +5%),Pr(≤ +10%),Quantity-weighted P95 of the purchase prices (%),P95 at the last purchase (%)
+"A: 24 months, 8 lots, 600 t",Block bootstrap,-0.9,+12.8,+42.1,0.67,0.76,+44.5,+62.9
+"A: 24 months, 8 lots, 600 t",Random walk,+2.4,+13.8,+25.3,0.58,0.72,+28.2,+43.4
+"B: 20 years, 20 lots, 600 t",Block bootstrap,+24.0,+80.2,+171.3,0.34,0.38,+190.3,+353.3
+"B: 20 years, 20 lots, 600 t",Random walk,+26.7,+74.4,+139.4,0.30,0.35,+154.4,+291.3

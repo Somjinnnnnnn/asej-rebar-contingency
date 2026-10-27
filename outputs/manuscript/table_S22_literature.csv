@@ -1,0 +1,9 @@
+﻿Study,Forecast target,Method,Probabilistic output,Purchase schedule,Contractual allocation,Retrospective allowance test
+Ashuri and Lu (2010),ENR construction cost index,Univariate time series,No,No,No,No
+Xu and Moon (2011),ENR construction cost index,Cointegrated VAR,Stochastic forecast,No,No,No
+Marzouk and Amin (2013),"Material prices, Egypt","Fuzzy logic, neural networks",No,Ordering priority of materials,Price-sensitive items for contract price modification,No
+Ning et al. (2025),Threaded steel price,Sliding-window CatBoost,No,No,No,No
+Liu et al. (2024),Material prices (review),Data-driven methods,Monte Carlo methods reviewed,No,No,No
+AlTalhoni et al. (2024),Cost indices (review),"Time series, Machine Learning, hybrid",No,No,No,No
+Thu et al. (2024),Price adjustment clauses,Survey and interviews,No,No,Clause thresholds and mechanisms,No
+This study,TPSO rebar list price,"Process models, quantile regression, XGBoost, block bootstrap","Scored by coverage, pinball loss and CRPS",Expenditure ratio of a purchase schedule,Illustrative ±5% clause,69 past origins

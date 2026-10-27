@@ -1,0 +1,13 @@
+﻿Run,Model,h = 1,h = 3,h = 6,h = 12
+"SD40 12 mm, main timing","XGBoost QR, own history",+9.2% (p = 0.049),-9.0% (p = 0.036),-15.9% (p = 0.018),-19.9% (p = 0.077)
+"SD40 12 mm, main timing","XGBoost QR, + all drivers",+7.8% (p = 0.103),-7.1% (p = 0.141),-15.6% (p = 0.026),-16.0% (p = 0.166)
+"SD40 12 mm, main timing","AR(1)-GARCH(1,1)",+4.9% (p = 0.475),-8.8% (p = 0.096),-9.5% (p = 0.071),-14.5% (p = 0.050)
+"SD40 12 mm, drivers lagged one more month","XGBoost QR, own history",+9.2% (p = 0.049),-9.0% (p = 0.036),-15.9% (p = 0.018),-19.9% (p = 0.077)
+"SD40 12 mm, drivers lagged one more month","XGBoost QR, + all drivers",+3.0% (p = 0.476),-13.3% (p = 0.006),-18.3% (p = 0.016),-21.8% (p = 0.120)
+"SD40 12 mm, drivers lagged one more month","AR(1)-GARCH(1,1)",+4.9% (p = 0.475),-8.8% (p = 0.096),-9.5% (p = 0.071),-14.5% (p = 0.050)
+SD50 12 mm,"XGBoost QR, own history",+0.3% (p = 0.937),-11.4% (p = 0.038),-15.2% (p = 0.060),-27.8% (p = 0.138)
+SD50 12 mm,"XGBoost QR, + all drivers",+3.5% (p = 0.358),-10.0% (p = 0.095),-19.9% (p = 0.016),-27.1% (p = 0.212)
+SD50 12 mm,"AR(1)-GARCH(1,1)",-1.0% (p = 0.871),-7.7% (p = 0.089),-9.5% (p = 0.053),-18.6% (p = 0.083)
+SR24 12 mm,"XGBoost QR, own history",+8.1% (p = 0.062),-9.0% (p = 0.033),-16.5% (p = 0.016),-19.1% (p = 0.101)
+SR24 12 mm,"XGBoost QR, + all drivers",+7.4% (p = 0.132),-7.3% (p = 0.133),-16.9% (p = 0.016),-15.1% (p = 0.180)
+SR24 12 mm,"AR(1)-GARCH(1,1)",+2.9% (p = 0.675),-9.5% (p = 0.091),-10.7% (p = 0.075),-17.1% (p = 0.037)

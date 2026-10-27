@@ -1,0 +1,5 @@
+﻿Comparison (one month),CRPS skill (%),DM p,Holm-adjusted p
+"XGBoost QR, own history vs random walk",+8.1,0.039,0.155
+"XGBoost QR vs linear QR, own history",+6.9,0.094,0.281
+"XGBoost QR, + all drivers vs own history",-0.9,0.828,1.000
+"XGBoost QR, + scrap and iron ore vs own history",-1.3,0.572,1.000

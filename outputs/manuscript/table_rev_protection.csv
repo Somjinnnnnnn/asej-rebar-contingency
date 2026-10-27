@@ -1,0 +1,15 @@
+﻿Allowance,Mean allowance (%),"Protection, all 69 origins","Protection, origins to 2022-12"
+Fixed +5%,5,0.71,–
+Fixed +10%,10,0.72,–
+Fixed +20%,20,0.77,–
+Fixed +30%,30,0.86,–
+"Random walk, model P80",10.2,0.71,0.58
+"Random walk, model P95",21.0,0.78,0.69
+"Random walk, model P99",31.0,0.84,0.77
+"Random walk, model P95, real fit and 2% inflation",23.3,0.78,0.69
+"Random walk, model P95 x 3.15 (retrospective scaling)",66.1,0.96,–
+"Block bootstrap, model P80",12.9,0.74,0.62
+"Block bootstrap, model P95",31.7,0.80,0.71
+"Block bootstrap, model P99",41.8,0.84,0.77
+"Block bootstrap, model P95, real fit and 2% inflation",34.2,0.81,0.73
+"Block bootstrap, model P95 x 2.79 (retrospective scaling)",88.5,0.96,–

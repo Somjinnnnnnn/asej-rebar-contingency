@@ -1,0 +1,163 @@
+Args: {'series': ['SD40 12mm'], 'data_dir': WindowsPath('data'), 'out_dir': 'backtest_v2', 'paths': 2000, 'first_origin': Timestamp('2020-06-01 00:00:00'), 'extra_lag': 0, 'driver_sets': ['all drivers', 'scrap+ore'], 'tune': 'both', 'quick': False, 'shard': None} | Windows-11-10.0.26200-SP0 | Python 3.12.10
+
+=== Data ===
+Drivers: ['iron_ore_wb', 'coal_wb', 'brent_wb', 'iron_ore_imf', 'steel_ppi', 'scrap_ppi', 'fx', 'diesel_thb', 'iron_ore_thb'] | Pink Sheet October 02, 2026
+    (6.5 s)
+
+=== Backtest ===
+    (4.1 s)
+CV-chosen penalty of the linear QR (share of origins):
+qr_alpha          0.0001  0.0003  0.0010  0.0030  0.0100  0.0300  0.1000
+features      h                                                         
++ all drivers 1     0.04    0.00    0.00    0.00    0.00    0.19    0.77
+              3     0.00    0.00    0.00    0.00    0.00    0.12    0.88
+              6     0.00    0.00    0.00    0.00    0.01    0.16    0.83
+              12    0.00    0.00    0.16    0.00    0.00    0.02    0.83
++ scrap+ore   1     0.00    0.00    0.00    0.00    0.08    0.64    0.28
+              3     0.00    0.00    0.00    0.00    0.00    0.04    0.96
+              6     0.00    0.00    0.00    0.00    0.00    0.44    0.56
+              12    0.00    0.00    0.17    0.02    0.00    0.12    0.69
+own history   1     0.00    0.00    0.04    0.16    0.29    0.37    0.13
+              3     0.00    0.00    0.03    0.00    0.12    0.62    0.23
+              6     0.06    0.00    0.00    0.00    0.19    0.37    0.39
+              12    0.09    0.03    0.25    0.11    0.14    0.20    0.17
+CV-chosen XGBoost depth x trees (share of origins):
+xgb_max_depth      2.0   1.0         2.0   1.0   2.0
+xgb_n_estimators 150.0 150.0 300.0 50.0  50.0  300.0
+features      h                                     
++ all drivers 1   0.45  0.29  0.16  0.05  0.04  0.00
+              3   0.12  0.03  0.00  0.21  0.60  0.04
+              6   0.00  0.06  0.00  0.03  0.89  0.03
+              12  0.13  0.00  0.00  0.39  0.48  0.00
++ scrap+ore   1   0.12  0.33  0.27  0.11  0.08  0.09
+              3   0.00  0.03  0.00  0.27  0.70  0.00
+              6   0.00  0.03  0.00  0.03  0.89  0.06
+              12  0.02  0.00  0.00  0.30  0.69  0.00
+own history   1   0.45  0.19  0.05  0.01  0.09  0.20
+              3   0.00  0.00  0.01  0.10  0.89  0.00
+              6   0.01  0.19  0.03  0.13  0.63  0.01
+              12  0.02  0.13  0.19  0.28  0.39  0.00
+
+##### SD40 12mm
+h                                       1      3       6       12
+model                                                            
+XGBoost QR, own history              2.260  6.034   8.984  13.109
+XGBoost QR, own history, CV-tuned    2.286  5.745   8.466  13.135
+XGBoost QR, + all drivers            2.293  5.931   8.959  12.679
+XGBoost QR, + all drivers, CV-tuned  2.306  5.712   8.477  12.977
+XGBoost QR, + scrap+ore, CV-tuned    2.316  5.762   8.466  13.228
+XGBoost QR, + scrap+ore              2.323  5.959   8.859  12.904
+AR(1)-GARCH(1,1)                     2.366  6.023   8.486  12.522
+Linear QR, own history               2.451  5.822   8.524  13.264
+Linear QR, own history, CV-tuned     2.455  5.894   8.478  12.874
+Linear QR, + scrap+ore, CV-tuned     2.462  5.822   8.766  12.987
+Empirical h-month changes            2.480  5.688   8.181  12.628
+Markov regime-switching              2.484  5.715   8.186  12.481
+Merton jump-diffusion                2.488  5.734   8.193  12.441
+Random walk                          2.488  5.535   7.750  10.932
+GARCH(1,1)                           2.499  5.725   8.136  11.005
+Linear QR, + scrap+ore               2.507  6.132   8.824  14.081
+Linear QR, + all drivers, CV-tuned   2.508  5.884   8.965  13.482
+AR(1)                                2.511  6.009   8.438  12.550
+GBM (data-calibrated)                2.520  5.725   8.221  12.616
+Linear QR, + all drivers             2.582  6.652  10.893  19.963
+Fixed +10% contingency                 NaN    NaN     NaN     NaN
+Fixed +5% contingency                  NaN    NaN     NaN     NaN
+Coverage P5-P95:
+h                                      1     3     6     12
+model                                                      
+AR(1)                                0.80  0.81  0.87  0.86
+AR(1)-GARCH(1,1)                     0.88  0.79  0.90  0.88
+Empirical h-month changes            0.81  0.82  0.83  0.81
+Fixed +10% contingency                NaN   NaN   NaN   NaN
+Fixed +5% contingency                 NaN   NaN   NaN   NaN
+GARCH(1,1)                           0.87  0.78  0.86  0.84
+GBM (data-calibrated)                0.83  0.78  0.86  0.83
+Linear QR, + all drivers             0.72  0.60  0.53  0.62
+Linear QR, + all drivers, CV-tuned   0.80  0.81  0.83  0.80
+Linear QR, + scrap+ore               0.76  0.73  0.76  0.78
+Linear QR, + scrap+ore, CV-tuned     0.81  0.79  0.83  0.81
+Linear QR, own history               0.81  0.77  0.81  0.81
+Linear QR, own history, CV-tuned     0.81  0.79  0.83  0.83
+Markov regime-switching              0.83  0.77  0.84  0.83
+Merton jump-diffusion                0.83  0.77  0.84  0.84
+Random walk                          0.83  0.78  0.86  0.84
+XGBoost QR, + all drivers            0.76  0.63  0.79  0.80
+XGBoost QR, + all drivers, CV-tuned  0.83  0.77  0.83  0.81
+XGBoost QR, + scrap+ore              0.81  0.70  0.79  0.77
+XGBoost QR, + scrap+ore, CV-tuned    0.84  0.81  0.84  0.83
+XGBoost QR, own history              0.80  0.71  0.83  0.80
+XGBoost QR, own history, CV-tuned    0.81  0.84  0.84  0.81
+Coverage <= P95:
+h                                      1     3     6     12
+model                                                      
+AR(1)                                0.91  0.90  0.91  0.89
+AR(1)-GARCH(1,1)                     0.93  0.89  0.91  0.89
+Empirical h-month changes            0.91  0.92  0.89  0.84
+Fixed +10% contingency               0.97  0.85  0.79  0.80
+Fixed +5% contingency                0.89  0.78  0.70  0.80
+GARCH(1,1)                           0.89  0.84  0.87  0.84
+GBM (data-calibrated)                0.89  0.86  0.90  0.88
+Linear QR, + all drivers             0.88  0.77  0.76  0.72
+Linear QR, + all drivers, CV-tuned   0.88  0.89  0.89  0.83
+Linear QR, + scrap+ore               0.88  0.88  0.83  0.88
+Linear QR, + scrap+ore, CV-tuned     0.89  0.88  0.89  0.86
+Linear QR, own history               0.91  0.86  0.87  0.84
+Linear QR, own history, CV-tuned     0.91  0.89  0.89  0.86
+Markov regime-switching              0.89  0.85  0.89  0.88
+Merton jump-diffusion                0.91  0.88  0.90  0.89
+Random walk                          0.89  0.86  0.89  0.86
+XGBoost QR, + all drivers            0.89  0.81  0.90  0.86
+XGBoost QR, + all drivers, CV-tuned  0.92  0.86  0.90  0.86
+XGBoost QR, + scrap+ore              0.92  0.84  0.90  0.86
+XGBoost QR, + scrap+ore, CV-tuned    0.92  0.90  0.90  0.88
+XGBoost QR, own history              0.92  0.84  0.90  0.84
+XGBoost QR, own history, CV-tuned    0.92  0.93  0.90  0.84
+DM tests (CRPS skill vs benchmark, p-value):
+h                                                                      1               3               6               12
+benchmark             model                                                                                              
+GARCH(1,1)            AR(1)                                -0.005 (0.936)   -0.05 (0.397)  -0.037 (0.677)   -0.14 (0.462)
+                      AR(1)-GARCH(1,1)                      0.053 (0.304)  -0.052 (0.425)  -0.043 (0.628)  -0.138 (0.441)
+                      Linear QR, + all drivers             -0.033 (0.751)  -0.162 (0.245)  -0.339 (0.052)  -0.814 (0.056)
+                      Linear QR, + all drivers, CV-tuned   -0.003 (0.955)  -0.028 (0.632)  -0.102 (0.125)  -0.225 (0.017)
+                      Linear QR, + scrap+ore               -0.003 (0.973)  -0.071 (0.482)  -0.085 (0.396)  -0.279 (0.014)
+                      Linear QR, + scrap+ore, CV-tuned      0.015 (0.737)  -0.017 (0.678)  -0.077 (0.093)   -0.18 (0.026)
+                      Linear QR, own history                 0.019 (0.76)  -0.017 (0.744)  -0.048 (0.329)  -0.205 (0.046)
+                      Linear QR, own history, CV-tuned      0.018 (0.648)   -0.03 (0.414)   -0.042 (0.33)   -0.17 (0.109)
+                      XGBoost QR, + all drivers             0.082 (0.102)  -0.036 (0.471)  -0.101 (0.113)  -0.152 (0.056)
+                      XGBoost QR, + all drivers, CV-tuned   0.077 (0.072)   0.002 (0.956)  -0.042 (0.385)   -0.179 (0.02)
+                      XGBoost QR, + scrap+ore                0.07 (0.063)  -0.041 (0.454)  -0.089 (0.158)   -0.173 (0.04)
+                      XGBoost QR, + scrap+ore, CV-tuned     0.073 (0.023)  -0.006 (0.871)  -0.041 (0.424)  -0.202 (0.012)
+                      XGBoost QR, own history               0.096 (0.025)  -0.054 (0.227)  -0.104 (0.087)  -0.191 (0.017)
+                      XGBoost QR, own history, CV-tuned     0.085 (0.029)  -0.004 (0.921)  -0.041 (0.414)  -0.194 (0.004)
+GBM (data-calibrated) AR(1)                                 0.003 (0.964)   -0.05 (0.261)  -0.026 (0.533)   0.005 (0.905)
+                      AR(1)-GARCH(1,1)                       0.061 (0.36)  -0.052 (0.292)  -0.032 (0.481)   0.007 (0.839)
+                      Linear QR, + all drivers             -0.025 (0.822)  -0.162 (0.171)  -0.325 (0.023)  -0.582 (0.079)
+                      Linear QR, + all drivers, CV-tuned     0.005 (0.94)  -0.028 (0.407)   -0.09 (0.178)  -0.069 (0.509)
+                      Linear QR, + scrap+ore                0.005 (0.961)  -0.071 (0.353)  -0.073 (0.337)  -0.116 (0.221)
+                      Linear QR, + scrap+ore, CV-tuned      0.023 (0.679)  -0.017 (0.548)  -0.066 (0.227)  -0.029 (0.764)
+                      Linear QR, own history                0.027 (0.732)  -0.017 (0.642)   -0.037 (0.43)  -0.051 (0.515)
+                      Linear QR, own history, CV-tuned      0.026 (0.614)   -0.03 (0.292)  -0.031 (0.511)   -0.02 (0.771)
+                      XGBoost QR, + all drivers              0.09 (0.041)  -0.036 (0.355)   -0.09 (0.132)  -0.005 (0.965)
+                      XGBoost QR, + all drivers, CV-tuned   0.085 (0.015)   0.002 (0.918)  -0.031 (0.498)  -0.029 (0.788)
+                      XGBoost QR, + scrap+ore               0.078 (0.032)   -0.041 (0.32)  -0.078 (0.147)   -0.023 (0.85)
+                      XGBoost QR, + scrap+ore, CV-tuned     0.081 (0.003)  -0.006 (0.759)   -0.03 (0.513)  -0.049 (0.677)
+                      XGBoost QR, own history               0.103 (0.017)  -0.054 (0.145)  -0.093 (0.111)  -0.039 (0.724)
+                      XGBoost QR, own history, CV-tuned     0.093 (0.011)  -0.004 (0.835)   -0.03 (0.501)  -0.041 (0.719)
+Random walk           AR(1)                                -0.009 (0.905)  -0.085 (0.055)  -0.089 (0.047)  -0.148 (0.065)
+                      AR(1)-GARCH(1,1)                      0.049 (0.475)  -0.088 (0.096)  -0.095 (0.071)   -0.145 (0.05)
+                      Linear QR, + all drivers              -0.038 (0.74)  -0.202 (0.125)  -0.406 (0.012)   -0.826 (0.05)
+                      Linear QR, + all drivers, CV-tuned   -0.008 (0.904)  -0.063 (0.192)  -0.157 (0.023)  -0.233 (0.026)
+                      Linear QR, + scrap+ore               -0.008 (0.943)  -0.108 (0.239)  -0.139 (0.113)  -0.288 (0.011)
+                      Linear QR, + scrap+ore, CV-tuned       0.01 (0.854)  -0.052 (0.154)  -0.131 (0.007)  -0.188 (0.052)
+                      Linear QR, own history                0.015 (0.854)  -0.052 (0.248)    -0.1 (0.029)  -0.213 (0.015)
+                      Linear QR, own history, CV-tuned      0.013 (0.793)  -0.065 (0.036)  -0.094 (0.044)  -0.178 (0.028)
+                      XGBoost QR, + all drivers             0.078 (0.103)  -0.071 (0.141)  -0.156 (0.026)   -0.16 (0.166)
+                      XGBoost QR, + all drivers, CV-tuned   0.073 (0.056)  -0.032 (0.299)  -0.094 (0.066)  -0.187 (0.077)
+                      XGBoost QR, + scrap+ore               0.066 (0.084)  -0.077 (0.139)  -0.143 (0.034)   -0.18 (0.153)
+                      XGBoost QR, + scrap+ore, CV-tuned     0.069 (0.017)  -0.041 (0.171)  -0.092 (0.086)   -0.21 (0.081)
+                      XGBoost QR, own history               0.092 (0.049)   -0.09 (0.036)  -0.159 (0.018)  -0.199 (0.077)
+                      XGBoost QR, own history, CV-tuned     0.081 (0.039)  -0.038 (0.088)  -0.092 (0.059)  -0.202 (0.067)
+   stage  seconds
+    Data     6.46
+Backtest     4.08

@@ -1,0 +1,5 @@
+pair,correlation
+"rebar-infl, lag 0",0.08703470948866956
+"rebar-infl, lag 1",0.0763788385269443
+"rebar-fx, lag 0",0.0212500291837394
+"rebar-fx, lag 1",-0.07543377469248705

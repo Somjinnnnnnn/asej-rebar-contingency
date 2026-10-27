@@ -1,0 +1,11 @@
+﻿Series,TPSO code,Listing (translated),Unit,First,Last,Months,Junction change (%),Benchmark change (%),Flagged
+SD40 12 mm,0401020200200000,"Deformed bar SD40, 12 mm, 10 m",ton,2017-01,2018-01,13,–,–,–
+SD40 12 mm,0401020201600000,"Deformed bar SD40, 12 mm, 10 m, quenched and tempered (Tempcore)",ton,2018-02,2018-05,4,-0.34,-0.34,no
+SD40 12 mm,0401020202300000,"Deformed bar SD40, 12 mm, 10 m, quenched and tempered (Tempcore)",ton,2018-06,2026-03,94,+3.41,+3.51,no
+SD40 12 mm,0401020203700000,"Deformed bar SD40, 12 mm, 10 m, quenched and tempered (Tempcore), TIS 24-2559",ton,2026-04,2026-09,6,+8.58,+6.26,yes
+SD50 12 mm,0401020300700000,"Deformed bar SD50, 12 mm, 10 m",ton,2017-04,2018-01,10,–,–,–
+SD50 12 mm,0401020301000000,"Deformed bar SD50, 12 mm, 10 m, quenched and tempered (Tempcore)",ton,2018-02,2018-05,4,-0.51,-0.34,no
+SD50 12 mm,0401020301700000,"Deformed bar SD50, 12 mm, 10 m, quenched and tempered (Tempcore)",ton,2018-06,2026-03,94,+4.59,+3.51,no
+SD50 12 mm,0401020302400000,"Deformed bar SD50, 12 mm, 10 m, quenched and tempered (Tempcore), TIS 24-2559",ton,2026-04,2026-09,6,+8.02,+6.26,no
+SR24 12 mm,0401010100300000,"Plain round bar SR24, 12 mm, 10 m",ton,2017-01,2026-03,111,–,–,–
+SR24 12 mm,0401010101700000,"Plain round bar SR24, 12 mm, 10 m, TIS 20-2559",ton,2026-04,2026-09,6,+8.10,+6.26,no

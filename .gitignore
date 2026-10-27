@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+outputs/cache/
+outputs/**/checkpoints/
+outputs/_smoke*/
+*.pkl
+*_err.txt
+# manuscript text and submission Word files built by step 12 (not archived)
+outputs/manuscript/Manuscript_rebar_ASEJ_draft.docx
+outputs/manuscript/Manuscript_rebar_ASEJ.docx
+outputs/manuscript/Highlights_rebar_ASEJ.docx
+outputs/manuscript/Supplementary_rebar_ASEJ.docx
+outputs/manuscript/Response_to_reviewers_rebar.docx
+outputs/manuscript/Cover_letter_rebar_ASEJ.docx

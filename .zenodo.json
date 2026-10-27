@@ -1,0 +1,26 @@
+{
+  "title": "Data and code for: Probabilistic Forecasting of Reinforcing Steel Prices for Expenditure-Based Price-Escalation Allowances: Evidence from Thailand",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Raw TPSO construction-material price reports (January 2017 to September 2026), Thai and global drivers (BOT exchange rates, EPPO retail diesel, TPSO Bangkok consumer price index, World Bank Pink Sheet iron ore, coal and Brent prices, US producer price indices for steel mill products and scrap, US CPI) and Python code that reproduce every table and figure of the paper. The code splices changing TPSO item codes into continuous reinforcing-bar price series, backtests 1- to 12-month probabilistic forecasts from stochastic price models and linear and XGBoost quantile regression with global steel drivers, tests conformal recalibration, and produces 1- to 20-year contingency bands in real THB, nominal THB and USD with an external validation on a US steel price index.",
+  "creators": [
+    {"name": "Kanangkaew, Somjintana", "affiliation": "Chiang Mai University"},
+    {"name": "Pang, Dikai", "affiliation": "Khon Kaen University"},
+    {"name": "Kanangkaew, Pongammard", "affiliation": "Khon Kaen University"},
+    {"name": "Jokkaw, Noppadon", "affiliation": "Chulalongkorn University"}
+  ],
+  "license": "MIT",
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.23496701", "relation": "isDerivedFrom", "scheme": "doi"}
+  ],
+  "keywords": [
+    "construction cost contingency",
+    "reinforcing steel",
+    "probabilistic forecasting",
+    "quantile regression",
+    "XGBoost",
+    "conformal prediction",
+    "block bootstrap",
+    "Thailand"
+  ]
+}

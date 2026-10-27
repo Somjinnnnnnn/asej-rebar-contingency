@@ -1,0 +1,4 @@
+﻿Series,Months,Unchanged months (%),Lag-1 autocorrelation,Jarque-Bera p,Ljung-Box(12) p,Ljung-Box(12) on squares p,ARCH-LM(12) p,ADF (log price) p
+SD40 12 mm,117,10.3,0.39,9.21e-14,0.001,0.165,0.045,0.412
+SD50 12 mm,114,12.4,0.32,3.41e-15,0.009,0.551,0.316,0.358
+SR24 12 mm,117,10.3,0.38,3.59e-15,0.001,0.14,0.034,0.395

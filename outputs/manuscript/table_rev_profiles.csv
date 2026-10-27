@@ -1,0 +1,9 @@
+﻿Model,Purchase profile,Mean purchase month,Expenditure P80 (%),Expenditure P95 (%),P95 retained with a ±5% clause (%),P95 passed on under the clause (%)
+Block bootstrap,front-loaded,10.7,+10.7,+35.4,+5.0,30.9
+Block bootstrap,S-curve (schedule A),12.9,+12.8,+42.1,+5.0,37.5
+Block bootstrap,even,13.5,+13.3,+41.7,+5.0,37.0
+Block bootstrap,back-loaded,16.4,+15.6,+48.7,+5.0,43.9
+Random walk,front-loaded,10.7,+11.6,+21.6,+5.0,16.9
+Random walk,S-curve (schedule A),12.9,+13.8,+25.3,+5.0,20.5
+Random walk,even,13.5,+13.8,+25.4,+5.0,20.7
+Random walk,back-loaded,16.4,+16.1,+29.9,+5.0,25.1

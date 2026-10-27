@@ -1,0 +1,13 @@
+﻿Model,Horizon (months),"CRPS, 19 quantiles (%)","CRPS, 999 quantiles (%)","Skill, 19 quantiles (%)","Skill, 999 quantiles (%)"
+Empirical h-month changes,1,2.48,2.38,+0.3,+0.2
+GBM (data-calibrated),1,2.52,2.42,-1.3,-1.3
+Random walk,1,2.49,2.39,+0.0,+0.0
+Empirical h-month changes,3,5.69,5.45,-2.7,-2.5
+GBM (data-calibrated),3,5.72,5.50,-3.4,-3.4
+Random walk,3,5.54,5.32,+0.0,+0.0
+Empirical h-month changes,6,8.18,7.91,-5.6,-5.7
+GBM (data-calibrated),6,8.22,7.94,-6.1,-6.1
+Random walk,6,7.75,7.48,+0.0,+0.0
+Empirical h-month changes,12,12.63,12.22,-15.5,-15.6
+GBM (data-calibrated),12,12.62,12.19,-15.4,-15.4
+Random walk,12,10.93,10.57,+0.0,+0.0

@@ -1,0 +1,13 @@
+﻿Specification,"Real P95 (% above the current price), 1 yr","Real P95 (% above the current price), 5 yr","Real P95 (% above the current price), 10 yr","Real P95 (% above the current price), 20 yr",US PPI validation: share ≤ P95 at 60 m
+"Headline: block bootstrap, mean block 12 months",+42,+84,+125,+205,0.87
+Mean block 3 months,+33,+81,+131,+223,0.86
+Mean block 6 months,+38,+87,+139,+241,0.87
+Mean block 24 months,+48,+70,+99,+153,0.84
+Mean block 36 months,+50,+63,+84,+125,0.81
+"Mean block 1.4 months (Politis and White, 2004)",+29,+73,+117,+201,–
+Excluding the 2020-06 to 2022-12 changes,+17,+38,+56,+86,–
+Excluding the code-junction months,+44,+88,+134,+217,–
+Comparator: driftless random walk,+25,+64,+99,+163,0.78
+"Monte Carlo range, 20 seeds x 10,000 paths",40 to 43,81 to 87,122 to 133,202 to 219,–
+"Estimation, block bootstrap: median (5th–95th percentile)",35 (17–49),74 (36–118),116 (52–194),193 (79–349),–
+"Estimation, random walk: median (5th–95th percentile)",25 (19–31),64 (46–82),101 (71–136),167 (118–241),–

@@ -1,0 +1,7 @@
+﻿Band,Basis,"P80 (% above the current price), 1 yr","P80 (% above the current price), 5 yr","P80 (% above the current price), 10 yr","P80 (% above the current price), 20 yr","P95 (% above the current price), 1 yr","P95 (% above the current price), 5 yr","P95 (% above the current price), 10 yr","P95 (% above the current price), 20 yr"
+Headline (block bootstrap),Real (THB of Sep 2026),+9.9,+32.5,+46.9,+69.6,+42.2,+84.0,+125.2,+205.1
+Headline (block bootstrap),"Nominal THB, 2% inflation",+12.1,+46.3,+79.1,+152.0,+45.1,+103.1,+174.5,+353.3
+Headline (block bootstrap),"USD, 2% inflation, stochastic FX",+14.4,+48.8,+82.0,+155.9,+46.5,+107.1,+181.6,+364.1
+Comparator (random walk),Real (THB of Sep 2026),+12.1,+29.1,+41.9,+66.8,+24.7,+64.0,+99.2,+163.3
+Comparator (random walk),"Nominal THB, 2% inflation",+14.3,+42.5,+73.0,+147.8,+27.2,+81.1,+142.8,+291.3
+Comparator (random walk),"USD, 2% inflation, stochastic FX",+15.8,+45.0,+76.0,+150.5,+29.6,+85.0,+146.6,+301.6

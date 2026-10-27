@@ -1,0 +1,144 @@
+Args: {'series': ['SD40 12mm'], 'data_dir': WindowsPath('data'), 'out_dir': 'backtest_robust_lag1', 'paths': 2000, 'first_origin': Timestamp('2020-06-01 00:00:00'), 'extra_lag': 1, 'quick': False} | Windows-11-10.0.26200-SP0 | Python 3.12.10
+
+=== Data ===
+Drivers: ['iron_ore_wb', 'coal_wb', 'brent_wb', 'iron_ore_imf', 'steel_ppi', 'scrap_ppi', 'fx', 'diesel_thb', 'iron_ore_thb'] | Pink Sheet October 02, 2026
+    (3.4 s)
+
+=== Backtest ===
+SD40 12mm origin 2021-09 done
+SD40 12mm origin 2021-10 done
+SD40 12mm origin 2021-11 done
+SD40 12mm origin 2021-12 done
+SD40 12mm origin 2022-01 done
+SD40 12mm origin 2022-02 done
+SD40 12mm origin 2022-03 done
+SD40 12mm origin 2022-04 done
+SD40 12mm origin 2022-05 done
+SD40 12mm origin 2022-06 done
+SD40 12mm origin 2022-07 done
+SD40 12mm origin 2022-08 done
+SD40 12mm origin 2022-09 done
+SD40 12mm origin 2022-10 done
+SD40 12mm origin 2022-11 done
+SD40 12mm origin 2022-12 done
+SD40 12mm origin 2023-01 done
+SD40 12mm origin 2023-02 done
+SD40 12mm origin 2023-03 done
+SD40 12mm origin 2023-04 done
+SD40 12mm origin 2023-05 done
+SD40 12mm origin 2023-06 done
+SD40 12mm origin 2023-07 done
+SD40 12mm origin 2023-08 done
+SD40 12mm origin 2023-09 done
+SD40 12mm origin 2023-10 done
+SD40 12mm origin 2023-11 done
+SD40 12mm origin 2023-12 done
+SD40 12mm origin 2024-01 done
+SD40 12mm origin 2024-02 done
+SD40 12mm origin 2024-03 done
+SD40 12mm origin 2024-04 done
+SD40 12mm origin 2024-05 done
+SD40 12mm origin 2024-06 done
+SD40 12mm origin 2024-07 done
+SD40 12mm origin 2024-08 done
+SD40 12mm origin 2024-09 done
+SD40 12mm origin 2024-10 done
+SD40 12mm origin 2024-11 done
+SD40 12mm origin 2024-12 done
+SD40 12mm origin 2025-01 done
+SD40 12mm origin 2025-02 done
+SD40 12mm origin 2025-03 done
+SD40 12mm origin 2025-04 done
+SD40 12mm origin 2025-05 done
+SD40 12mm origin 2025-06 done
+SD40 12mm origin 2025-07 done
+SD40 12mm origin 2025-08 done
+SD40 12mm origin 2025-09 done
+SD40 12mm origin 2025-10 done
+SD40 12mm origin 2025-11 done
+SD40 12mm origin 2025-12 done
+SD40 12mm origin 2026-01 done
+SD40 12mm origin 2026-02 done
+SD40 12mm origin 2026-03 done
+SD40 12mm origin 2026-04 done
+SD40 12mm origin 2026-05 done
+SD40 12mm origin 2026-06 done
+SD40 12mm origin 2026-07 done
+SD40 12mm origin 2026-08 done
+    (488.0 s)
+
+##### SD40 12mm
+h                             1      3       6       12
+model                                                  
+XGBoost QR, own history    2.260  6.034   8.984  13.109
+AR(1)-GARCH(1,1)           2.366  6.023   8.486  12.522
+XGBoost QR, + drivers      2.414  6.271   9.168  13.312
+Linear QR, own history     2.451  5.822   8.524  13.264
+Empirical h-month changes  2.480  5.688   8.181  12.628
+Markov regime-switching    2.484  5.715   8.186  12.481
+Merton jump-diffusion      2.488  5.734   8.193  12.441
+Random walk                2.488  5.535   7.750  10.932
+GARCH(1,1)                 2.499  5.725   8.136  11.005
+AR(1)                      2.511  6.009   8.438  12.550
+GBM (data-calibrated)      2.520  5.725   8.221  12.616
+Linear QR, + drivers       2.730  7.356  11.828  21.665
+Fixed +10% contingency       NaN    NaN     NaN     NaN
+Fixed +5% contingency        NaN    NaN     NaN     NaN
+Coverage P5-P95:
+h                            1     3     6     12
+model                                            
+AR(1)                      0.80  0.81  0.87  0.86
+AR(1)-GARCH(1,1)           0.88  0.79  0.90  0.88
+Empirical h-month changes  0.81  0.82  0.83  0.81
+Fixed +10% contingency      NaN   NaN   NaN   NaN
+Fixed +5% contingency       NaN   NaN   NaN   NaN
+GARCH(1,1)                 0.87  0.78  0.86  0.84
+GBM (data-calibrated)      0.83  0.78  0.86  0.83
+Linear QR, + drivers       0.73  0.58  0.63  0.62
+Linear QR, own history     0.81  0.77  0.81  0.81
+Markov regime-switching    0.83  0.77  0.84  0.83
+Merton jump-diffusion      0.83  0.77  0.84  0.84
+Random walk                0.83  0.78  0.86  0.84
+XGBoost QR, + drivers      0.81  0.67  0.80  0.75
+XGBoost QR, own history    0.80  0.71  0.83  0.80
+Coverage <= P95:
+h                            1     3     6     12
+model                                            
+AR(1)                      0.91  0.90  0.91  0.89
+AR(1)-GARCH(1,1)           0.93  0.89  0.91  0.89
+Empirical h-month changes  0.91  0.92  0.89  0.84
+Fixed +10% contingency     0.97  0.85  0.79  0.80
+Fixed +5% contingency      0.89  0.78  0.70  0.80
+GARCH(1,1)                 0.89  0.84  0.87  0.84
+GBM (data-calibrated)      0.89  0.86  0.90  0.88
+Linear QR, + drivers       0.84  0.77  0.80  0.72
+Linear QR, own history     0.91  0.86  0.87  0.84
+Markov regime-switching    0.89  0.85  0.89  0.88
+Merton jump-diffusion      0.91  0.88  0.90  0.89
+Random walk                0.89  0.86  0.89  0.86
+XGBoost QR, + drivers      0.93  0.81  0.90  0.83
+XGBoost QR, own history    0.92  0.84  0.90  0.84
+DM tests (CRPS skill vs benchmark, p-value):
+h                                                          1               3               6               12
+benchmark             model                                                                                  
+GARCH(1,1)            AR(1)                    -0.005 (0.936)   -0.05 (0.397)  -0.037 (0.677)   -0.14 (0.462)
+                      AR(1)-GARCH(1,1)          0.053 (0.304)  -0.052 (0.425)  -0.043 (0.628)  -0.138 (0.441)
+                      Linear QR, + drivers     -0.092 (0.289)  -0.285 (0.027)  -0.454 (0.005)  -0.969 (0.029)
+                      Linear QR, own history     0.019 (0.76)  -0.017 (0.744)  -0.048 (0.329)  -0.205 (0.046)
+                      XGBoost QR, + drivers     0.034 (0.441)  -0.096 (0.056)  -0.127 (0.058)   -0.21 (0.018)
+                      XGBoost QR, own history   0.096 (0.025)  -0.054 (0.227)  -0.104 (0.087)  -0.191 (0.017)
+GBM (data-calibrated) AR(1)                     0.003 (0.964)   -0.05 (0.261)  -0.026 (0.533)   0.005 (0.905)
+                      AR(1)-GARCH(1,1)           0.061 (0.36)  -0.052 (0.292)  -0.032 (0.481)   0.007 (0.839)
+                      Linear QR, + drivers     -0.083 (0.394)  -0.285 (0.012)  -0.439 (0.003)  -0.717 (0.062)
+                      Linear QR, own history    0.027 (0.732)  -0.017 (0.642)   -0.037 (0.43)  -0.051 (0.515)
+                      XGBoost QR, + drivers     0.042 (0.258)  -0.096 (0.023)  -0.115 (0.085)  -0.055 (0.673)
+                      XGBoost QR, own history   0.103 (0.017)  -0.054 (0.145)  -0.093 (0.111)  -0.039 (0.724)
+Random walk           AR(1)                    -0.009 (0.905)  -0.085 (0.055)  -0.089 (0.047)  -0.148 (0.065)
+                      AR(1)-GARCH(1,1)          0.049 (0.475)  -0.088 (0.096)  -0.095 (0.071)   -0.145 (0.05)
+                      Linear QR, + drivers     -0.097 (0.332)  -0.329 (0.008)  -0.526 (0.002)  -0.982 (0.035)
+                      Linear QR, own history    0.015 (0.854)  -0.052 (0.248)    -0.1 (0.029)  -0.213 (0.015)
+                      XGBoost QR, + drivers      0.03 (0.476)  -0.133 (0.006)  -0.183 (0.016)   -0.218 (0.12)
+                      XGBoost QR, own history   0.092 (0.049)   -0.09 (0.036)  -0.159 (0.018)  -0.199 (0.077)
+   stage  seconds
+    Data     3.42
+Backtest   488.03

@@ -1,0 +1,61 @@
+﻿Horizon,Model,CRPS skill vs random walk (%),DM p,BH-adjusted p,Holm-adjusted p
+Horizon 1 month,AR(1),-0.9,0.905,0.936,1.000
+Horizon 1 month,"AR(1)-GARCH(1,1)",+4.9,0.475,0.570,1.000
+Horizon 1 month,Empirical h-month changes,+0.3,0.822,0.931,1.000
+Horizon 1 month,"GARCH(1,1)",-0.5,0.879,0.936,1.000
+Horizon 1 month,GBM (data-calibrated),-1.3,0.221,0.288,1.000
+Horizon 1 month,"Linear QR, + all drivers",-3.8,0.740,0.871,1.000
+Horizon 1 month,"Linear QR, + all drivers (tuned)",-0.8,0.904,0.936,1.000
+Horizon 1 month,"Linear QR, + scrap and iron ore (tuned)",+1.0,0.854,0.936,1.000
+Horizon 1 month,"Linear QR, own history (tuned)",+1.3,0.793,0.915,1.000
+Horizon 1 month,Markov regime-switching,+0.1,0.893,0.936,1.000
+Horizon 1 month,Merton jump-diffusion,+0.0,0.989,0.989,1.000
+Horizon 1 month,"XGBoost QR, + all drivers (tuned)",+7.3,0.056,0.151,1.000
+Horizon 1 month,"XGBoost QR, + scrap and iron ore (tuned)",+6.9,0.017,0.151,0.959
+Horizon 1 month,"XGBoost QR, own history",+9.2,0.049,0.151,1.000
+Horizon 1 month,"XGBoost QR, own history (tuned)",+8.1,0.039,0.151,1.000
+Horizon 3 months,AR(1),-8.5,0.055,0.151,1.000
+Horizon 3 months,"AR(1)-GARCH(1,1)",-8.8,0.096,0.152,1.000
+Horizon 3 months,Empirical h-month changes,-2.7,0.094,0.152,1.000
+Horizon 3 months,"GARCH(1,1)",-3.4,0.303,0.379,1.000
+Horizon 3 months,GBM (data-calibrated),-3.4,0.097,0.152,1.000
+Horizon 3 months,"Linear QR, + all drivers",-20.2,0.125,0.187,1.000
+Horizon 3 months,"Linear QR, + all drivers (tuned)",-6.3,0.192,0.256,1.000
+Horizon 3 months,"Linear QR, + scrap and iron ore (tuned)",-5.2,0.154,0.216,1.000
+Horizon 3 months,"Linear QR, own history (tuned)",-6.5,0.036,0.151,1.000
+Horizon 3 months,Markov regime-switching,-3.2,0.086,0.151,1.000
+Horizon 3 months,Merton jump-diffusion,-3.6,0.051,0.151,1.000
+Horizon 3 months,"XGBoost QR, + all drivers (tuned)",-3.2,0.299,0.379,1.000
+Horizon 3 months,"XGBoost QR, + scrap and iron ore (tuned)",-4.1,0.171,0.233,1.000
+Horizon 3 months,"XGBoost QR, own history",-9.0,0.036,0.151,1.000
+Horizon 3 months,"XGBoost QR, own history (tuned)",-3.8,0.088,0.151,1.000
+Horizon 6 months,AR(1),-8.9,0.047,0.151,1.000
+Horizon 6 months,"AR(1)-GARCH(1,1)",-9.5,0.071,0.151,1.000
+Horizon 6 months,Empirical h-month changes,-5.6,0.020,0.151,1.000
+Horizon 6 months,"GARCH(1,1)",-5.0,0.402,0.492,1.000
+Horizon 6 months,GBM (data-calibrated),-6.1,0.130,0.191,1.000
+Horizon 6 months,"Linear QR, + all drivers",-40.6,0.012,0.151,0.680
+Horizon 6 months,"Linear QR, + all drivers (tuned)",-15.7,0.023,0.151,1.000
+Horizon 6 months,"Linear QR, + scrap and iron ore (tuned)",-13.1,0.007,0.151,0.442
+Horizon 6 months,"Linear QR, own history (tuned)",-9.4,0.044,0.151,1.000
+Horizon 6 months,Markov regime-switching,-5.6,0.148,0.211,1.000
+Horizon 6 months,Merton jump-diffusion,-5.7,0.121,0.187,1.000
+Horizon 6 months,"XGBoost QR, + all drivers (tuned)",-9.4,0.066,0.151,1.000
+Horizon 6 months,"XGBoost QR, + scrap and iron ore (tuned)",-9.2,0.086,0.151,1.000
+Horizon 6 months,"XGBoost QR, own history",-15.9,0.018,0.151,0.998
+Horizon 6 months,"XGBoost QR, own history (tuned)",-9.2,0.059,0.151,1.000
+Horizon 12 months,AR(1),-14.8,0.065,0.151,1.000
+Horizon 12 months,"AR(1)-GARCH(1,1)",-14.5,0.050,0.151,1.000
+Horizon 12 months,Empirical h-month changes,-15.5,0.002,0.123,0.123
+Horizon 12 months,"GARCH(1,1)",-0.7,0.956,0.972,1.000
+Horizon 12 months,GBM (data-calibrated),-15.4,0.067,0.151,1.000
+Horizon 12 months,"Linear QR, + all drivers",-82.6,0.050,0.151,1.000
+Horizon 12 months,"Linear QR, + all drivers (tuned)",-23.3,0.026,0.151,1.000
+Horizon 12 months,"Linear QR, + scrap and iron ore (tuned)",-18.8,0.052,0.151,1.000
+Horizon 12 months,"Linear QR, own history (tuned)",-17.8,0.028,0.151,1.000
+Horizon 12 months,Markov regime-switching,-14.2,0.075,0.151,1.000
+Horizon 12 months,Merton jump-diffusion,-13.8,0.080,0.151,1.000
+Horizon 12 months,"XGBoost QR, + all drivers (tuned)",-18.7,0.077,0.151,1.000
+Horizon 12 months,"XGBoost QR, + scrap and iron ore (tuned)",-21.0,0.081,0.151,1.000
+Horizon 12 months,"XGBoost QR, own history",-19.9,0.077,0.151,1.000
+Horizon 12 months,"XGBoost QR, own history (tuned)",-20.2,0.067,0.151,1.000

@@ -1,0 +1,4 @@
+﻿Allowance,Protection,"90% interval, mean block 6 months","90% interval, mean block 12 months","90% interval, mean block 24 months","90% interval, mean block 36 months"
+"Random walk, model P95",0.78,0.57–0.97,0.55–1.00,0.57–0.99,0.58–0.99
+"Block bootstrap, model P95",0.80,0.58–0.97,0.57–1.00,0.59–1.00,0.59–1.00
+Fixed +10%,0.72,0.48–0.93,0.45–0.96,0.48–0.97,0.49–0.96

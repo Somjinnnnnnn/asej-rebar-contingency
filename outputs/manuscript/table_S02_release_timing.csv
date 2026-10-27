@@ -1,0 +1,8 @@
+﻿Information,Source,Reference period,Available,Lag at origin t (months),Vintage used
+TPSO construction material prices (rebar list price),TPSO,month t,during month t + 1 (assumed; release dates of individual reports not recorded),0,as published
+"Bangkok CPI (deflator, RQ3 only)",TPSO,month t,early month t + 1,not a forecast input,as published
+"Iron ore, coal, Brent (Pink Sheet)",World Bank,month t,first working days of month t + 1,0,release of 2 October 2026; recent months can be revised
+THB/USD mid rate,Bank of Thailand,"daily, averaged over month t",end of month t,0,as published
+Bangkok retail diesel (HSD B7),EPPO,"daily, averaged over month t",end of month t,0,as published
+"US PPI steel mill products, iron and steel scrap",BLS via FRED,month t,mid-month t + 1,1,vintage of 22 October 2026; revised for four months after first release
+US CPI (validation deflator only),BLS via FRED,month t,mid-month t + 1,not a forecast input,vintage of 22 October 2026

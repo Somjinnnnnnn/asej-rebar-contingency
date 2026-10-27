@@ -1,0 +1,41 @@
+﻿Band,Basis,Years,P50 (%),P80 (%),P90 (%),P95 (%),P50,P80,P95,Unit
+headline: Block bootstrap (demeaned),Real (THB of Sep 2026),1,-3.6,9.9,25.3,42.2,18269,20819,26954,THB/ton of Sep 2026
+headline: Block bootstrap (demeaned),Real (THB of Sep 2026),5,-2.7,32.5,57.3,84.0,18437,25107,34864,THB/ton of Sep 2026
+headline: Block bootstrap (demeaned),Real (THB of Sep 2026),10,-2.4,46.9,84.0,125.2,18489,27838,42676,THB/ton of Sep 2026
+headline: Block bootstrap (demeaned),Real (THB of Sep 2026),20,-4.0,69.6,133.6,205.1,18186,32142,57814,THB/ton of Sep 2026
+headline: Block bootstrap (demeaned),"Nominal THB, 2 % inflation",1,-1.7,12.1,27.8,45.1,18634,21235,27493,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 2 % inflation",5,7.4,46.3,73.7,103.1,20356,27721,38492,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 2 % inflation",10,18.9,79.1,124.2,174.5,22538,33935,52021,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 2 % inflation",20,42.6,152.0,247.1,353.3,27024,47762,85908,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, stochastic inflation",1,-1.6,12.7,27.0,44.4,18643,21358,27366,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, stochastic inflation",5,6.0,45.1,71.8,101.6,20088,27499,38198,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, stochastic inflation",10,16.3,74.9,121.5,172.2,22040,33138,51588,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, stochastic inflation",20,35.8,144.4,232.7,340.2,25738,46316,83423,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 1.34 % inflation (2017–2026)",1,-2.3,11.3,27.0,44.1,18514,21098,27316,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 1.34 % inflation (2017–2026)",5,4.0,41.6,68.1,96.7,19708,26839,37268,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 1.34 % inflation (2017–2026)",10,11.5,67.9,110.2,157.3,21127,31810,48764,THB/ton
+headline: Block bootstrap (demeaned),"Nominal THB, 1.34 % inflation (2017–2026)",20,25.3,121.5,205.0,298.4,23746,41968,75488,THB/ton
+headline: Block bootstrap (demeaned),"USD, 2 % inflation, stochastic FX",1,-0.4,14.4,29.0,46.5,568,653,836,USD/ton
+headline: Block bootstrap (demeaned),"USD, 2 % inflation, stochastic FX",5,8.9,48.8,76.3,107.1,621,849,1182,USD/ton
+headline: Block bootstrap (demeaned),"USD, 2 % inflation, stochastic FX",10,21.0,82.0,129.0,181.6,690,1039,1607,USD/ton
+headline: Block bootstrap (demeaned),"USD, 2 % inflation, stochastic FX",20,44.6,155.9,251.1,364.1,825,1460,2648,USD/ton
+"comparator: Random walk (real, driftless)",Real (THB of Sep 2026),1,0.2,12.1,18.7,24.7,18991,21242,23632,THB/ton of Sep 2026
+"comparator: Random walk (real, driftless)",Real (THB of Sep 2026),5,0.6,29.1,47.2,64.0,19064,24456,31084,THB/ton of Sep 2026
+"comparator: Random walk (real, driftless)",Real (THB of Sep 2026),10,0.2,41.9,70.8,99.2,18985,26895,37750,THB/ton of Sep 2026
+"comparator: Random walk (real, driftless)",Real (THB of Sep 2026),20,0.1,66.8,115.2,163.3,18963,31606,49899,THB/ton of Sep 2026
+"comparator: Random walk (real, driftless)","Nominal THB, 2 % inflation",1,2.2,14.3,21.1,27.2,19371,21667,24105,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 2 % inflation",5,11.1,42.5,62.5,81.1,21049,27002,34319,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 2 % inflation",10,22.1,73.0,108.2,142.8,23143,32785,46017,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 2 % inflation",20,48.7,147.8,219.8,291.3,28178,46965,74147,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, stochastic inflation",1,2.0,14.2,21.2,27.5,19322,21643,24152,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, stochastic inflation",5,9.6,40.9,62.0,80.0,20765,26695,34116,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, stochastic inflation",10,19.4,70.5,104.8,140.1,22628,32308,45500,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, stochastic inflation",20,42.4,137.4,208.3,281.8,26977,44985,72360,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 1.34 % inflation (2017–2026)",1,1.6,13.6,20.3,26.4,19246,21527,23950,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 1.34 % inflation (2017–2026)",5,7.5,38.0,57.3,75.3,20379,26143,33228,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 1.34 % inflation (2017–2026)",10,14.5,62.2,95.2,127.6,21694,30733,43136,THB/ton
+"comparator: Random walk (real, driftless)","Nominal THB, 1.34 % inflation (2017–2026)",20,30.7,117.8,181.0,243.8,24760,41268,65153,THB/ton
+"comparator: Random walk (real, driftless)","USD, 2 % inflation, stochastic FX",1,2.9,15.8,23.1,29.6,587,660,739,USD/ton
+"comparator: Random walk (real, driftless)","USD, 2 % inflation, stochastic FX",5,12.4,45.0,66.1,85.0,641,827,1056,USD/ton
+"comparator: Random walk (real, driftless)","USD, 2 % inflation, stochastic FX",10,24.0,76.0,112.6,146.6,708,1004,1407,USD/ton
+"comparator: Random walk (real, driftless)","USD, 2 % inflation, stochastic FX",20,51.2,150.5,224.6,301.6,862,1429,2292,USD/ton

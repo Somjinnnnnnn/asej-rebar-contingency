@@ -1,0 +1,5 @@
+hypothesis,model,benchmark,h,n,skill,dm_stat,p_value,p_holm
+Machine Learning vs random walk,"XGBoost QR, own history, CV-tuned",Random walk,1,75,0.0811602353638714,-2.103743134999921,0.038799231320050684,0.15519692528020274
+learner: XGBoost vs linear,"XGBoost QR, own history, CV-tuned","Linear QR, own history, CV-tuned",1,75,0.06863380165784772,-1.6984756921946005,0.0936192448741918,0.2808577346225754
+drivers: all vs own history,"XGBoost QR, + all drivers, CV-tuned","XGBoost QR, own history, CV-tuned",1,75,-0.008572504513775225,0.21797176972125296,0.8280510618003658,1.0
+drivers: scrap+ore vs own history,"XGBoost QR, + scrap+ore, CV-tuned","XGBoost QR, own history, CV-tuned",1,75,-0.013027998526254914,0.5672617919246749,0.5722532095069687,1.0

@@ -1,0 +1,11 @@
+﻿Model,Recalibration,"CRPS, h = 1","CRPS, h = 3","CRPS, h = 6","CRPS, h = 12"
+Random walk,raw,2.06,4.06,4.34,5.49
+Random walk,expanding,2.26,5.33,7.54,13.23
+Random walk,rolling 24,2.23,5.1,6.46,11.79
+Random walk,"symmetric, expanding",2.05,4.41,5.27,7.69
+Random walk,"symmetric, rolling 24",2.04,4.35,4.8,6.81
+"XGBoost QR, own history",raw,1.8,4.17,4.67,6.16
+"XGBoost QR, own history",expanding,2.02,5.49,7.98,17.11
+"XGBoost QR, own history",rolling 24,1.99,5.23,6.84,15.44
+"XGBoost QR, own history","symmetric, expanding",1.85,4.53,5.65,9.49
+"XGBoost QR, own history","symmetric, rolling 24",1.84,4.44,5.1,8.25
